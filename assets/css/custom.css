@@ -1,23 +1,18 @@
 body {
-  /*max-width: 1200px;*/
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
 .container {
   width: 100%;
-  /*max-width: 1200px;*/
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.col-12 {
-  padding: 10px;  /* 增加内边距 */
-  background-color: #f0f0f0;  /* 设置背景颜色 */
-}
-
-/* 对于大屏幕设备（宽度大于 992px） */
-.col-lg-8 {
-  max-width: 180%; /* 设置最大宽度为屏幕宽度的 80% */
+.my-custom-width {
+  max-width: 1200px; /* 设置最大宽度 */
   margin: 0 auto; /* 居中对齐 */
-  padding: 20px;  /* 增加内边距 */
+  padding: 20px; /* 内边距 */
+  background-color: #f9f9f9; /* 可选的背景色 */
 }

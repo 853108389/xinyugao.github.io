@@ -42,6 +42,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
+        <div class="my-custom-width">
          I am a research scientist in the Moons.
          I am a research scientist in the Moons.
          I am a research scientist in the Moons.
@@ -50,6 +51,7 @@ sections:
          I am a research scientist in the Moons.
         
          I apply a range of quali.
+        </div>
 #       <div class="grid grid-cols-2 gap-4">
 #            <div>
 #              I am a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
