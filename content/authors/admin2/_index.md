@@ -10,8 +10,8 @@ first_name: Xinyu
 last_name: Gao
 
 # Status emoji
-status:
-  icon: ☕️
+#status:
+#  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Ph.D. Student
+role: Ph.D. Student, Nanjing University
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Nanjing University
+  - name: xinyugao@smail.nju.edu.cn
     # url: https://openai.com/
 
 # Social network links
@@ -32,13 +32,13 @@ organizations:
 profiles:
   - icon: envelope
     url: 'xinyugao@smail.nju.edu.cn'
-    label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/MSFTest
+#    label: E-mail Me
+#  - icon: brands/github
+#    url: https://github.com/MSFTest
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=-qs9cDUAAAAJ&hl=zh-CN
-  - icon: academicons/orcid
-    url: https://orcid.org/my-orcid?orcid=0009-0004-7135-1833
+#  - icon: academicons/orcid
+#    url: https://orcid.org/my-orcid?orcid=0009-0004-7135-1833
 #
 #interests:
 #  
