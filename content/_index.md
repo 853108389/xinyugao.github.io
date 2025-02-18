@@ -37,7 +37,7 @@ sections:
 #          size: cover
 #          position: center
 #          parallax: false
-  - block: collection
+  - block: markdown
     content:
       title: '📚 My Research'
       subtitle: ''
@@ -62,7 +62,7 @@ sections:
 #        </div>
 #          Please reach out to collaborate
     design:
-      columns: '2'
+      columns: '1'
       spacing:
           padding: [0, 0, 0, 0]
           width: 100%
