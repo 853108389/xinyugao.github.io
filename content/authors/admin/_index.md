@@ -59,7 +59,7 @@ education:
   - area: MEng Software Engineering
     institution: Nanjing University
     date_start: 2019-09-01
-    date_end: 2021-96-01
+    date_end: 2021-06-01
     # summary: |
     #   GPA: 3.8/4.0
 
