@@ -19,17 +19,22 @@ sections:
 #        text: Download CV
 #        url: uploads/resume.pdf
     design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+      spacing:
+        padding: [0, 0, 0, 0]
+      biography:
+        style: 'text-align: justify; font-size: 0.8em;'
+#    design:
+#      css_class: dark
+#      background:
+#        color: black
+#        image:
+#          # Add your image background to `assets/media/`.
+#          filename: stacked-peaks.svg
+#          filters:
+#            brightness: 1.0
+#          size: cover
+#          position: center
+#          parallax: false
   - block: markdown
     content:
       title: '📚 My Research'
