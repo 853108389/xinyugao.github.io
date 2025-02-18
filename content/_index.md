@@ -38,8 +38,7 @@ sections:
 #          position: center
 #          parallax: false
   
-  - content:
-      text: |-
+  - text: |-
          1I am a research scientist in the Moons.
          I1 am a research scientist in the Moons.
          I1 am a research scientist in the Moons.
