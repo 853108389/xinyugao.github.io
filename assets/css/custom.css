@@ -1,17 +1,17 @@
 body {
-  max-width: 1200px;
+  max-width: 12000px;
   margin: 0 auto;
   padding: 20px;
 }
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 12000px;
   margin: 0 auto;
 }
 
 .my-custom-width {
-  max-width: 1200px; /* 设置最大宽度 */
+  max-width: 12000px; /* 设置最大宽度 */
   margin: 0 auto; /* 居中对齐 */
   padding: 20px; /* 内边距 */
   background-color: #f9f9f9; /* 可选的背景色 */
