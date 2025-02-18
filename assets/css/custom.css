@@ -9,3 +9,15 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.col-12 {
+  padding: 10px;  /* 增加内边距 */
+  background-color: #f0f0f0;  /* 设置背景颜色 */
+}
+
+/* 对于大屏幕设备（宽度大于 992px） */
+.col-lg-8 {
+  max-width: 80%; /* 设置最大宽度为屏幕宽度的 80% */
+  margin: 0 auto; /* 居中对齐 */
+  padding: 20px;  /* 增加内边距 */
+}
