@@ -30,11 +30,11 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: envelope
-    url: 'xinyugao@smail.nju.edu.cn'
+#  - icon: envelope
+#    url: 'xinyugao@smail.nju.edu.cn'
 #    label: E-mail Me
-#  - icon: brands/github
-#    url: https://github.com/MSFTest
+  - icon: brands/github
+    url: https://github.com/MSFTest
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=-qs9cDUAAAAJ&hl=zh-CN
 #  - icon: academicons/orcid
