@@ -40,15 +40,17 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-       <div class="grid grid-cols-2 gap-4">
-            <div>
-              I am a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-            </div>
-            <div>
-              I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-            </div>
-        </div>
-          Please reach out to collaborate
+         I am a research scientist in the Moons.
+         I apply a range of quali.
+#       <div class="grid grid-cols-2 gap-4">
+#            <div>
+#              I am a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+#            </div>
+#            <div>
+#              I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+#            </div>
+#        </div>
+#          Please reach out to collaborate
     design:
       columns: '2'
     spacing:
