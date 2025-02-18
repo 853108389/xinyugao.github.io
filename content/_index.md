@@ -43,7 +43,13 @@ sections:
       subtitle: ''
       text: |-
          I am a research scientist in the Moons.
-         I apply a range of quali.
+          I am a research scientist in the Moons.
+          I am a research scientist in the Moons.
+          I am a research scientist in the Moons.
+          I am a research scientist in the Moons.
+          I am a research scientist in the Moons.
+         |- 
+        I apply a range of quali.
 #       <div class="grid grid-cols-2 gap-4">
 #            <div>
 #              I am a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
