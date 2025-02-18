@@ -11,6 +11,7 @@ body {
 }
 
 .my-custom-width {
+  width: 100%;
   max-width: 12000px; /* 设置最大宽度 */
   margin: 0 auto; /* 居中对齐 */
   padding: 20px; /* 内边距 */
