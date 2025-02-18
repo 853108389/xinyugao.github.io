@@ -49,7 +49,7 @@ interests:
 education:
   - area: PhD Software Engineering
     institution: Nanjing University
-    date_start: 2021-09
+    date_start: 2021-09-01
     date_end: present
     # summary: |
     #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
@@ -58,8 +58,8 @@ education:
     #   url: 'https://example.com'
   - area: MEng Software Engineering
     institution: Nanjing University
-    date_start: 2019-09
-    date_end: 2021-96
+    date_start: 2019-09-01
+    date_end: 2021-96-01
     # summary: |
     #   GPA: 3.8/4.0
 
@@ -69,8 +69,8 @@ education:
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - institution: Nanjing University of Posts and Telecommunications 
     area: BSc 
-    date_start: 2015-09
-    date_end: 2019-06
+    date_start: 2015-09-01
+    date_end: 2019-06-01
     # summary: |
     #   GPA: 3.4/4.0
       
