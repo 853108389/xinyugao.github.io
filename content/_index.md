@@ -61,9 +61,9 @@ sections:
 #          Please reach out to collaborate
     design:
       columns: '2'
-    spacing:
-      padding: [0, 0, 0, 0]
-      width: 100%
+      spacing:
+          padding: [0, 0, 0, 0]
+          width: 100%
       
   - block: markdown
     content:
