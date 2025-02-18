@@ -46,38 +46,38 @@ interests:
   - Quality Assurance of Autonomous Driving Systems. This focuses on evaluating and enhancing the reliability of Autonomous Driving Systems.
   - Quality Assurance of Complex AI Systems. This involves investigating how we can analyze, test, and enhance AI-based software systems.
 
-education:
-  - area: PhD Software Engineering
-    institution: Nanjing University
-    date_start: 2021-09-01
-    date_end: 2025-06-01
-    # summary: |
-    #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    # button:
-    #   text: 'Read Thesis'
-    #   url: 'https://example.com'
-  - area: MEng Software Engineering
-    institution: Nanjing University
-    date_start: 2019-09-01
-    date_end: 2021-06-01
-    # summary: |
-    #   GPA: 3.8/4.0
-
-    #   Courses included:
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - institution: Nanjing University of Posts and Telecommunications 
-    area: BSc 
-    date_start: 2015-09-01
-    date_end: 2019-06-01
-    # summary: |
-    #   GPA: 3.4/4.0
-      
-    #   Courses included:
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit 1 
+#education:
+#  - area: PhD Software Engineering
+#    institution: Nanjing University
+#    date_start: 2021-09-01
+#    date_end: 2025-06-01
+#    # summary: |
+#    #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+#    # button:
+#    #   text: 'Read Thesis'
+#    #   url: 'https://example.com'
+#  - area: MEng Software Engineering
+#    institution: Nanjing University
+#    date_start: 2019-09-01
+#    date_end: 2021-06-01
+#    # summary: |
+#    #   GPA: 3.8/4.0
+#
+#    #   Courses included:
+#    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#  - institution: Nanjing University of Posts and Telecommunications 
+#    area: BSc 
+#    date_start: 2015-09-01
+#    date_end: 2019-06-01
+#    # summary: |
+#    #   GPA: 3.4/4.0
+#      
+#    #   Courses included:
+#    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit 1 
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -178,5 +178,8 @@ awards:
 
 ## About Me
 I am currently a Ph.D. student in the Department of Software Engineering, Nanjing University, advised by Prof. Baowen Xu. 
+
+My current research interest focuses on **Software Engineering** (SE) support for complex AI-based software systems (quality assurance for AI).
+
 
 My research focuses on software reliability assurance within the field of Software Engineering (SE). Recently, my work has explored software testing, analysis, and repair for complex software systems.
