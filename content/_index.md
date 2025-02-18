@@ -63,6 +63,7 @@ sections:
       columns: '2'
     spacing:
       padding: [0, 0, 0, 0]
+      width: 100%
       
   - block: markdown
     content:
