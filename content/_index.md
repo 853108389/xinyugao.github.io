@@ -40,7 +40,7 @@ sections:
       text: |-
             <div class="grid grid-cols-2 gap-4 w-4/5 max-w-screen-lg mx-auto text-justify-small">
                 <div >
-
+                        <p> 111 </p>
                 </div>
         
                 <div>
