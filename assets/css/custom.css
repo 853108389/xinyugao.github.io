@@ -21,3 +21,21 @@ body {
   padding: 20px; /* 内边距 */
   background-color: #f9f9f9; /* 可选的背景色 */
 }
+
+.resume-biography {
+  #profile {
+    text-align: center;
+    padding: 30px 10px;
+    position: relative;
+  }
+
+  /* Custom avatar size on homepage */
+
+  .avatar {
+    width: auto;
+    height: auto;
+    max-width: 2150px;
+    max-height: 2150px;
+    object-fit: cover;
+  }
+}
