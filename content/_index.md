@@ -36,37 +36,23 @@ sections:
       text: |-
             <div class="grid grid-cols-2 gap-4 w-4/5 max-w-screen-lg mx-auto text-justify-small">
                 <div >
-                    <div>
-                        - Robustness of Multi-Sensor Fusion Systems. This involves analyzing and testing the robustness issues, particularly those arising from heterogeneous data fusion, in the multi-sensor fusion process.
-                    </div>
-                    <div>
-                        - Quality Assurance of Autonomous Driving Systems. This focuses on evaluating and enhancing the reliability of Autonomous Driving Systems.
-                    </div>  
-                    <div>
-                        - Quality Assurance of Complex AI Systems. This involves investigating how we can analyze, test, and enhance AI-based software systems.
-                    </div>
+                    {{< research_interests 
+                        interests=[
+                                    {"title":"Robustness of Multi-Sensor Fusion Systems", "description": "This involves analyzing and testing the robustness issues, particularly those arising from heterogeneous data fusion, in the multi-sensor fusion process."},
+                                    {"title": "Quality Assurance of Autonomous Driving Systems", "description": "This focuses on evaluating and enhancing the reliability of Autonomous Driving Systems."},
+                                    {"title": "Quality Assurance of Complex AI Systems", "description": "This involves investigating how we can analyze, test, and enhance AI-based software systems."}
+                                  ]
+                    >}}
                 </div>
-                <div >
-                    <div class="education">
-                        <div >Nanjing University</div>
-                        <div >2024 - present</div>
-                    </div>
-                    <div class="text-justify-small2-gray">Ph.D. Software Engineering</div>
-                    <div class="text-justify-small2-gray">Supervised by Prof. Lei Ma</div>
-                    <div style="margin-top: 20px;"></div> 
         
-                    <div class="education">
-                        <div>Nanjing University</div>
-                        <div>2021 - 2023</div>
-                    </div>
-                    <div class="text-justify-small2-gray">MEng Software Engineering</div>
-                    <div class="text-justify-small2-gray">Supervised by Prof. Lei Ma</div>
-                    <div style="margin-top: 20px;"></div> 
+                <div>
+        
+                    {{< education university="Nanjing University" duration="2024 - present" degree="Ph.D. Software Engineering" supervisor="Supervised by Prof. Lei Ma" >}}
 
-                    <div class="education">
-                        <div class="text-justify-small2-gray">Nanjing University of Posts and Telecommunications</div>
-                        <div class="text-justify-small2-gray">2017 - 2021</div>
-                    </div>
+                    {{< education university="Nanjing University" duration="2021 - 2023" degree="MEng Software Engineering" supervisor="Supervised by Prof. Lei Ma" >}}
+                    
+                    {{< education university="Nanjing University of Posts and Telecommunications" duration="2017 - 2021" >}}
+
                 </div>
             </div>
      
