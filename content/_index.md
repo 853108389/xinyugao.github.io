@@ -1,13 +1,19 @@
 ---
 sections:
-  - block: markdown
+  - block: markdown  # 用shortcode
     content:
       title: "📚 My Research"
       text: |
         {{% custom title="Custom Block" %}}
         This is custom content inside a shortcode.
         {{% /custom %}}
-  - block: custom
+  - block: markdown # 用小部件
     content:
-      partial: "custom-block"  # # 加载 layouts/partials/custom-block.html
+      title: "📚 My Research"
+      text: | 
+        {{ partial "custom-block.html" . }} 
+  - widget: custom-block  # 用block 这里用 widget，而不是 block
+    content:
+      title: "Custom Block"
+      text: "This is a custom block."
 ---
