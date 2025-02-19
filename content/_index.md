@@ -39,19 +39,9 @@ sections:
       subtitle: ''
       text: |-
             <div class="grid grid-cols-2 gap-4 w-4/5 max-w-screen-lg mx-auto text-justify-small">
-                <div >
-                        <p> 111 </p>
-                </div>
-        
-                <div>
-        
-                    {{< education university="Nanjing University" duration="2024 - present" degree="Ph.D. Software Engineering" supervisor="Supervised by Prof. Lei Ma" >}}
-
-                    {{< education university="Nanjing University" duration="2021 - 2023" degree="MEng Software Engineering" supervisor="Supervised by Prof. Lei Ma" >}}
-                    
-                    {{< education university="Nanjing University of Posts and Telecommunications" duration="2017 - 2021" >}}
-
-                </div>
+                {{< education university="Nanjing University" duration="2024 - present" degree="Ph.D. Software Engineering" supervisor="Supervised by Prof. Lei Ma" >}}
+                {{< education university="Nanjing University" duration="2021 - 2023" degree="MEng Software Engineering" supervisor="Supervised by Prof. Lei Ma" >}}
+                {{< education university="Nanjing University of Posts and Telecommunications" duration="2017 - 2021" >}}
             </div>
      
     design:

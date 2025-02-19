@@ -1,6 +1,8 @@
-<div class="education">
-    <div>{{ .Get "university" }}</div>
-    <div>{{ .Get "duration" }}</div>
+<div class="mb-4">
+    <div class="education">
+        <div>{{ .Get "university" }}</div>
+        <div>{{ .Get "duration" }}</div>
+    </div>
+    <div class="text-justify-small2-gray mt-2">{{ .Get "degree" }}</div>
+    <div class="text-justify-small2-gray mt-2">{{ .Get "supervisor" }}</div>
 </div>
-<div class="text-justify-small2-gray">{{ .Get "degree" }}</div>
-<div class="text-justify-small2-gray">{{ .Get "supervisor" }}</div>
