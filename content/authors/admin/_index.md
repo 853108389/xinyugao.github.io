@@ -10,8 +10,8 @@ first_name: Xinyu
 last_name: Gao
 
 # Status emoji
-status:
-  icon: ☕️
+#status:
+#  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -175,5 +175,4 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## About Me
 I am currently a Ph.D. student in the Department of Software Engineering, Nanjing University, advised by Prof. Baowen Xu. My research focuses on software reliability assurance within the field of Software Engineering (SE). Recently, my work has explored software testing, analysis, and repair for complex software systems.
