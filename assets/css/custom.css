@@ -5,7 +5,7 @@ body {
 }
 
 .max-w-prose {
-  max-width: none !important; /* 删除最大宽度限制 */
+  max-width: 80% !important; /* 删除最大宽度限制 */
 }
 
 .container {
