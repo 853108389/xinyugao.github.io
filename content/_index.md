@@ -23,7 +23,6 @@ sections:
 #      css_class: "bg-primary-700"
       spacing:
         padding: [0, 0, 0, 0]
-        width: 100%
       biography:
         style: 'text-align: justify; font-size: 0.8em;'
         
@@ -33,16 +32,25 @@ sections:
 #                                    {"title": "Quality Assurance of Autonomous Driving Systems", "description": "This focuses on evaluating and enhancing the reliability of Autonomous Driving Systems."},
 #                                    {"title": "Quality Assurance of Complex AI Systems", "description": "This involves investigating how we can analyze, test, and enhance AI-based software systems."}]
 #                    >}}
+  
+# <div> 
+#                    {{< education university="Nanjing University" duration="2024 - present" degree="Ph.D. Software Engineering" supervisor="Supervised by Prof. Lei Ma" >}}
+#                    {{< education university="Nanjing University" duration="2021 - 2023" degree="MEng Software Engineering" supervisor="Supervised by Prof. Lei Ma" >}}
+#                    {{< education university="Nanjing University of Posts and Telecommunications" duration="2017 - 2021" >}}
+#                </div>
+
   - block: markdown
     content:
 #      title: '📚 My Research'
       subtitle: ''
       text: |-
             <div class="grid grid-cols-2 gap-4 w-4/5 max-w-screen-lg mx-auto text-justify-small">
-                <div> 
-                    {{< education university="Nanjing University" duration="2024 - present" degree="Ph.D. Software Engineering" supervisor="Supervised by Prof. Lei Ma" >}}
-                    {{< education university="Nanjing University" duration="2021 - 2023" degree="MEng Software Engineering" supervisor="Supervised by Prof. Lei Ma" >}}
-                    {{< education university="Nanjing University of Posts and Telecommunications" duration="2017 - 2021" >}}
+                <div>
+                    {{< research_interests 
+                            interests=[{"title":"Robustness of Multi-Sensor Fusion Systems", "description": "This involves analyzing and testing the robustness issues, particularly those arising from heterogeneous data fusion, in the multi-sensor fusion process."},
+                                        {"title": "Quality Assurance of Autonomous Driving Systems", "description": "This focuses on evaluating and enhancing the reliability of Autonomous Driving Systems."},
+                                        {"title": "Quality Assurance of Complex AI Systems", "description": "This involves investigating how we can analyze, test, and enhance AI-based software systems."}]
+                        >}}
                 </div>
             </div>
      
