@@ -4,23 +4,32 @@ body {
   padding: 20px;
 }
 
-.max-w-prose {
-  max-width: 80% !important; /* 删除最大宽度限制 */
-}
-
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.my-custom-width {
-  width: 100%;
-  max-width: 12000px; /* 设置最大宽度 */
-  margin: 0 auto; /* 居中对齐 */
-  padding: 20px; /* 内边距 */
-  background-color: #f9f9f9; /* 可选的背景色 */
+/*修改模板中的样式*/
+/*设置content中的最大宽度*/
+.max-w-prose {
+  max-width: 80% !important; /* 删除最大宽度限制 */
 }
+
+/*设置resume中的最大宽度*/
+.resume-biography .bio-text {
+    max-width: 80% !important;
+}
+
+
+
+/*.my-custom-width {*/
+/*  width: 100%;*/
+/*  max-width: 12000px; !* 设置最大宽度 *!*/
+/*  margin: 0 auto; !* 居中对齐 *!*/
+/*  padding: 20px; !* 内边距 *!*/
+/*  background-color: #f9f9f9; !* 可选的背景色 *!*/
+/*}*/
 
 /*.resume-biography {*/
 /*  #profile {*/
