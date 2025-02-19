@@ -29,6 +29,11 @@ body {
     max-width: none !important;
 }
 
+/*设置使用的字体大小*/
+.text-justify-small {
+    text-align: justify; /* 文本两端对齐 */
+    font-size: 0.8em; /* 字体大小设为 0.8 倍父元素 */
+}
 
 
 

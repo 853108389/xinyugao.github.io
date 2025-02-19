@@ -34,8 +34,8 @@ sections:
 #      title: '📚 My Research'
       subtitle: ''
       text: |-
-            <div class="grid grid-cols-2 gap-4 w-4/5 max-w-screen-lg mx-auto">
-                <div class="bg-gray-300 h-20">
+            <div class="grid grid-cols-2 gap-4 w-4/5 max-w-screen-lg mx-auto text-justify-small">
+                <div >
                     <div>
                         - Robustness of Multi-Sensor Fusion Systems. This involves analyzing and testing the robustness issues, particularly those arising from heterogeneous data fusion, in the multi-sensor fusion process.
                     </div>
@@ -46,7 +46,7 @@ sections:
                         - Quality Assurance of Complex AI Systems. This involves investigating how we can analyze, test, and enhance AI-based software systems.
                     </div>
                 </div>
-                <div class="bg-gray-400 h-20">
+                <div >
                   I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
                 </div>
             </div>
