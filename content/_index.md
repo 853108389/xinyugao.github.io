@@ -34,16 +34,16 @@ sections:
 #      title: '📚 My Research'
       subtitle: ''
       text: |-
-           <div class="grid grid-cols-2 gap-4">
-            <div>
-                - Robustness of Multi-Sensor Fusion Systems. This involves analyzing and testing the robustness issues, particularly those arising from heterogeneous data fusion, in the multi-sensor fusion process.
-                - Quality Assurance of Autonomous Driving Systems. This focuses on evaluating and enhancing the reliability of Autonomous Driving Systems.
-                - Quality Assurance of Complex AI Systems. This involves investigating how we can analyze, test, and enhance AI-based software systems.
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    - Robustness of Multi-Sensor Fusion Systems. This involves analyzing and testing the robustness issues, particularly those arising from heterogeneous data fusion, in the multi-sensor fusion process.
+                    - Quality Assurance of Autonomous Driving Systems. This focuses on evaluating and enhancing the reliability of Autonomous Driving Systems.
+                    - Quality Assurance of Complex AI Systems. This involves investigating how we can analyze, test, and enhance AI-based software systems.
+                </div>
+                <div>
+                  I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+                </div>
             </div>
-            <div>
-              I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-            </div>
-        </div>
      
     design:
       columns: '1'
