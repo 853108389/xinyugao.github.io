@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Ph.D. Student
+role: Ph.D. Student, Nanjing University
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Nanjing University
+  - name: xinyugao@smail.nju.edu.cn
     # url: https://openai.com/
 
 # Social network links
