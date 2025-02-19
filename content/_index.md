@@ -2,4 +2,5 @@
 title: "About"
 layout: "default"  # 使用默认布局，或者指定其他布局
 ---
+{{ partial "custom-block.html" . }}
 {{ partial "resume-biography222.html" . }}
