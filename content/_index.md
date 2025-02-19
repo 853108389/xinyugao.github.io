@@ -46,22 +46,24 @@ sections:
                         - Quality Assurance of Complex AI Systems. This involves investigating how we can analyze, test, and enhance AI-based software systems.
                     </div>
                 </div>
-                <div class="education">
-                    <div class="text-justify-small2-gray">Nanjing University</div>
-                    <div class="text-justify-small2-gray">2024 - present</div>
-                </div>
-                <div class="text-justify-small2-gray">Ph.D. Software Engineering</div>
-                <div class="text-justify-small2-gray">Supervised by Prof. Lei Ma</div>
-                
-                <div class="education">
-                    <div class="text-justify-small2-gray">Nanjing University</div>
-                    <div class="text-justify-small2-gray">2021 - 2023</div>
-                </div>
-                <div class="text-justify-small2-gray">MEng Software Engineering</div>
-                <div class="text-justify-small2-gray">Supervised by Prof. Lei Ma</div>
-                <div class="education">
-                    <div class="text-justify-small2-gray">Nanjing University of Posts and Telecommunications</div>
-                    <div class="text-justify-small2-gray">2017 - 2021</div>
+                <div >
+                    <div class="education">
+                        <div class="text-justify-small2-gray">Nanjing University</div>
+                        <div class="text-justify-small2-gray">2024 - present</div>
+                    </div>
+                    <div class="text-justify-small2-gray">Ph.D. Software Engineering</div>
+                    <div class="text-justify-small2-gray">Supervised by Prof. Lei Ma</div>
+                    
+                    <div class="education">
+                        <div class="text-justify-small2-gray">Nanjing University</div>
+                        <div class="text-justify-small2-gray">2021 - 2023</div>
+                    </div>
+                    <div class="text-justify-small2-gray">MEng Software Engineering</div>
+                    <div class="text-justify-small2-gray">Supervised by Prof. Lei Ma</div>
+                    <div class="education">
+                        <div class="text-justify-small2-gray">Nanjing University of Posts and Telecommunications</div>
+                        <div class="text-justify-small2-gray">2017 - 2021</div>
+                    </div>
                 </div>
             </div>
      

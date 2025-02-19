@@ -46,24 +46,8 @@ body {
             justify-content: space-between;
             margin: 20px 0;
 }
-.institution {
-    font-weight: bold;
-    color: #7A2A2A; /* 深红色 */
-    font-size: 18px; /* 字体大小 */
-}
-.year {
-    font-weight: normal;
-    color: #7A2A2A; /* 深红色 */
-    font-size: 18px; /* 字体大小 */
-}
-.degree {
-    font-size: 14px; /* 字体大小 */
-    color: #555; /* 灰色 */
-}
-.supervisor {
-    font-size: 14px; /* 字体大小 */
-    color: #888; /* 灰色小字 */
-}
+
+
 
 
 
