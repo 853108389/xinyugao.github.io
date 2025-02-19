@@ -9,5 +9,5 @@ sections:
         {{% /custom %}}
   - block: custom
     content:
-      partial: "custom-block"  # 加载 layouts/partials/custom-block.html
+      partial: "custom-block"  # # 加载 layouts/partials/custom-block.html
 ---
