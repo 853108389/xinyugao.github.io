@@ -22,20 +22,20 @@ body {
   background-color: #f9f9f9; /* 可选的背景色 */
 }
 
-.resume-biography {
-  #profile {
-    text-align: center;
-    padding: 30px 10px;
-    position: relative;
-  }
+/*.resume-biography {*/
+/*  #profile {*/
+/*    text-align: center;*/
+/*    padding: 30px 10px;*/
+/*    position: relative;*/
+/*  }*/
 
-  /* Custom avatar size on homepage */
+/*  !* Custom avatar size on homepage *!*/
 
-  .avatar {
-    width: 2150px; !important
-    height: 2150px; !important
-    max-width: 2150px; !important
-    max-height: 2150px; !important
-    object-fit: cover;
-  }
-}
+/*  .avatar {*/
+/*    width: 2150px; !important*/
+/*    height: 2150px; !important*/
+/*    max-width: 2150px; !important*/
+/*    max-height: 2150px; !important*/
+/*    object-fit: cover;*/
+/*  }*/
+/*}*/
