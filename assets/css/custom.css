@@ -32,10 +32,10 @@ body {
   /* Custom avatar size on homepage */
 
   .avatar {
-    width: auto;
-    height: auto;
-    max-width: 2150px;
-    max-height: 2150px;
+    width: 2150px; !important
+    height: 2150px; !important
+    max-width: 2150px; !important
+    max-height: 2150px; !important
     object-fit: cover;
   }
 }
