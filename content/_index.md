@@ -46,7 +46,7 @@ sections:
       text: |-
             <div class="grid grid-cols-2 gap-4 w-4/5 max-w-screen-lg mx-auto text-justify-small">
                 <div>
-                    {{< education interest_title="Robustness of Multi-Sensor Fusion Systems" interest_description="This involves analyzing and testing the robustness issues, particularly those arising from heterogeneous data fusion, in the multi-sensor fusion process." >}}
+                    {{< research_interests interest_title="Robustness of Multi-Sensor Fusion Systems" interest_description="This involves analyzing and testing the robustness issues, particularly those arising from heterogeneous data fusion, in the multi-sensor fusion process." >}}
                 </div>
             </div>
      
