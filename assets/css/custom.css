@@ -35,11 +35,17 @@ body {
     font-size: 0.8em; /* 字体大小设为 0.8 倍父元素 */
 }
 
+.text-justify-small2-gray {
+    text-align: justify; /* 文本两端对齐 */
+    font-size: 0.8em; /* 字体大小设为 0.8 倍父元素 */
+    color: #555; /* 灰色 */
+}
+
 .education {
             display: flex;
             justify-content: space-between;
             margin: 20px 0;
-        }
+}
 .institution {
     font-weight: bold;
     color: #7A2A2A; /* 深红色 */
