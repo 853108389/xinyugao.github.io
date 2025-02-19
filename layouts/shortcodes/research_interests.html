@@ -1,5 +1,3 @@
 <div>
-    {{ range .Params.interests }}
-        <div>- {{ .title }} {{ .description }}</div>
-    {{ end }}
+    <div>- {{ .Get "interest_title" }} {{ .Get "interest_description" }}</div>
 </div>
