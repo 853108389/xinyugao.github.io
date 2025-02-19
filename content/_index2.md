@@ -19,6 +19,7 @@ sections:
 #        text: Download CV
 #        url: uploads/resume.pdf
     design:
+      css_class: "resume-biography2"
       spacing:
         padding: [0, 0, 0, 0]
         width: 100%
