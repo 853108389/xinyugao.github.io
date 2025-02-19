@@ -12,14 +12,14 @@ sections:
   - block: resume-biography
     content:
       # Choose a user profile to display (a folder name within `content/authors/`) #
-      username: admin2
+      username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
 #      button:
 #        text: Download CV
 #        url: uploads/resume.pdf
     design:
-      css_class: "bg-primary-700"
+#      css_class: "bg-primary-700"
       spacing:
         padding: [0, 0, 0, 0]
         width: 100%
