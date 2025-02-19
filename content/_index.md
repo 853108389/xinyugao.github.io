@@ -46,8 +46,22 @@ sections:
                         - Quality Assurance of Complex AI Systems. This involves investigating how we can analyze, test, and enhance AI-based software systems.
                     </div>
                 </div>
-                <div >
-                  I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+                <div class="education">
+                    <div class="institution">Nanjing University</div>
+                    <div class="year">2024 - present</div>
+                </div>
+                <div class="degree">Ph.D. Software Engineering</div>
+                <div class="supervisor">Supervised by Prof. Lei Ma</div>
+                
+                <div class="education">
+                    <div class="institution">Nanjing University</div>
+                    <div class="year">2021 - 2023</div>
+                </div>
+                <div class="degree">MEng Software Engineering</div>
+                <div class="supervisor">Supervised by Prof. Lei Ma</div>
+                <div class="education">
+                    <div class="institution">Nanjing University of Posts and Telecommunications</div>
+                    <div class="year">2017 - 2021</div>
                 </div>
             </div>
      
