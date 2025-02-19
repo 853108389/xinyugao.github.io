@@ -7,6 +7,21 @@ sections:
         {{% custom title="Custom Block" %}}
         This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.
         {{% /custom %}}
+      design:
+        classes: max-w-none  
+  - block: markdown  # 用shortcode
+    content:
+      title: "📚 My Research2"
+      text: |
+        {{% custom title="Custom Block" %}}
+        This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.
+        {{% /custom %}}
+      design:
+        classes: max-w-7xl
+        
+
+
+
   - block: markdown # 用小部件
     content:
       title: "📚 My Research"

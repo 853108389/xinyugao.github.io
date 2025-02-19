@@ -4,6 +4,10 @@ body {
   padding: 20px;
 }
 
+.max-w-prose {
+  max-width: none !important; /* 删除最大宽度限制 */
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
