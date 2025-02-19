@@ -9,39 +9,47 @@ design:
   spacing: "6rem"
 
 sections:
+  #  从【头像】到【自我介绍】
   - block: resume-biography
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
+      # Choose a user profile to display (a folder name within `content/authors/`) #
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+#      button:
+#        text: Download CV
+#        url: uploads/resume.pdf
     design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+#      css_class: "bg-primary-700"
+      spacing:
+        padding: [0, 0, 0, 0]
+        width: 100%
+      biography:
+        style: 'text-align: justify; font-size: 0.8em;'
+        
+  # 【兴趣】和【教育经历】
+      
   - block: markdown
     content:
-      title: '📚 My Research'
+#      title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+           <div class="grid grid-cols-2 gap-4">
+            <div>
+                - Robustness of Multi-Sensor Fusion Systems. This involves analyzing and testing the robustness issues, particularly those arising from heterogeneous data fusion, in the multi-sensor fusion process.
+                - Quality Assurance of Autonomous Driving Systems. This focuses on evaluating and enhancing the reliability of Autonomous Driving Systems.
+                - Quality Assurance of Complex AI Systems. This involves investigating how we can analyze, test, and enhance AI-based software systems.
+            </div>
+            <div>
+              I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+            </div>
+        </div>
+     
     design:
       columns: '1'
+      spacing:
+          padding: [0, 0, 0, 0]
+      
   - block: collection
     id: papers
     content:
