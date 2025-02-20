@@ -123,24 +123,24 @@
                 {{ end }}
 
                 {{ with $person.education }}
-                <div class=""  {{ with $block.design.biography.style }}{{ (printf "style=\"%s\"" .) | safe.HTMLAttr }}{{end}}>
+                <div class="w-full"  {{ with $block.design.biography.style }}{{ (printf "style=\"%s\"" .) | safe.HTMLAttr }}{{end}}>
                     <div class="section-subheading mb-3">{{ i18n "education" | markdownify }}</div>
                     <ul class="">
                         {{ range . }}
-<!--                        <li class="flex items-start gap-3">-->
-                        <div class="mb-4">
-                            <div class="flex justify-between">
-                                <div>{{ .institution }}</div>
-                                <div>{{ .date_start }} - {{ .date_end }}</div>
-                        </div>
-<!--                            </div>-->
+                        <li class="flex items-start gap-3">
+                            <div class="mb-4">
+                                <div class="education">
+                                    <div>{{ .institution }}{</div>
+                                    <div>{{ .date_start }} - {{ .date_end }}</div>
+                                </div>
+                            </div>
 
 <!--                            {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "style=\"\" class='flex-shrink-0 w-5 h-5 me-2 mt-1'") }}-->
 <!--                            <div class="description">-->
 <!--                                <p class="course">{{ .area }}{{ with .year }}, {{ . }}{{ end }}</p>-->
 <!--                                <p class="text-sm">{{ .institution }}</p>-->
 <!--                            </div>-->
-<!--                        </li>-->
+                        </li>
                         {{ end }}
                     </ul>
                 </div>
