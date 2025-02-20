@@ -14,7 +14,7 @@ body {
 
 /*设置一行最多多少个字*/
 .prose {
-  max-width: 150ch; !important /* 设置为 80 个字符宽度 */
+  max-width: 100ch; !important /* 设置为 80 个字符宽度 */
   /*max-width: 80ch; !important !* 设置为 80 个字符宽度 *!*/
   text-align: justify;
 }
