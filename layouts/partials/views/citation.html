@@ -8,11 +8,11 @@
   {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
 
 <!--  <a href="{{ $item.RelPermalink }}" class="underline">{{ $item.Title }}</a>.-->
-  <p class="mb-0">{{ $item.Title }}</p>
+  <p class="mb-0">{{ $item.Title }} ({{- $item.Date.Format "2006" -}}).</p>
   <p class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" $item }}
+    {{ partial "page_metadata_authors" $item | markdownify }}
   </p>
-  ({{- $item.Date.Format "2006" -}}).
+
 
   {{ if $item.Params.publication_short }}
     {{- $item.Params.publication_short | markdownify -}}.
