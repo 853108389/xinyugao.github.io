@@ -9,52 +9,79 @@ design:
   spacing: "6rem"
 
 sections:
-  #  从【头像】到【自我介绍】
   - block: resume-biography
     content:
       # Choose a user profile to display (a folder name within `content/authors/`) #
-      username: admin
+      username: admin2
       text: ""
       # Show a call-to-action button under your biography? (optional)
 #      button:
 #        text: Download CV
 #        url: uploads/resume.pdf
     design:
-#      css_class: "bg-primary-700"
+      css_class: "bg-primary-700"
       spacing:
         padding: [0, 0, 0, 0]
-      biography:
-        style: 'text-align: justify; font-size: 0.8em;'
+        width: 100%
         
-  # 【兴趣】和【教育经历】
-#                    {{< research_interests 
-#                        interests=[{"title":"Robustness of Multi-Sensor Fusion Systems", "description": "This involves analyzing and testing the robustness issues, particularly those arising from heterogeneous data fusion, in the multi-sensor fusion process."},
-#                                    {"title": "Quality Assurance of Autonomous Driving Systems", "description": "This focuses on evaluating and enhancing the reliability of Autonomous Driving Systems."},
-#                                    {"title": "Quality Assurance of Complex AI Systems", "description": "This involves investigating how we can analyze, test, and enhance AI-based software systems."}]
-#                    >}}
-  
-# <div> 
-#                    {{< education university="Nanjing University" duration="2024 - present" degree="Ph.D. Software Engineering" supervisor="Supervised by Prof. Lei Ma" >}}
-#                    {{< education university="Nanjing University" duration="2021 - 2023" degree="MEng Software Engineering" supervisor="Supervised by Prof. Lei Ma" >}}
-#                    {{< education university="Nanjing University of Posts and Telecommunications" duration="2017 - 2021" >}}
-#                </div>
+#      biography:
+#        style: 'text-align: justify; font-size: 0.8em;'
+#    design:
+#      css_class: dark
+#      background:
+#        color: black
+#        image:
+#          # Add your image background to `assets/media/`.
+#          filename: stacked-peaks.svg
+#          filters:
+#            brightness: 1.0
+#          size: cover
+#          position: center
+#          parallax: false
+ 
+    
 
-  - block: markdown
-    content:
-#      title: '📚 My Research'
+  - content:
+      title: '📚 My Research'
       subtitle: ''
       text: |-
-            <div class="grid grid-cols-2 gap-4 w-4/5 max-w-screen-lg mx-auto text-justify-small">
-                <div>
-                    {{< research_interests interest_title="Robustness of Multi-Sensor Fusion Systems" interest_description="This involves analyzing and testing the robustness issues, particularly those arising from heterogeneous data fusion, in the multi-sensor fusion process." >}}
-                </div>
-            </div>
-     
+        <div class="my-custom-width">
+         I am a research scientist in the Moons.
+         I am a research scientist in the Moons.
+         I am a research scientist in the Moons.
+         I am a research scientist in the Moons.
+         I am a research scientist in the Moons.
+         I am a research scientist in the Moons.
+        
+         I apply a range of quali.
+        </div>
+#       <div class="grid grid-cols-2 gap-4">
+#            <div>
+#              I am a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+#            </div>
+#            <div>
+#              I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+#            </div>
+#        </div>
+#          Please reach out to collaborate
     design:
       columns: '1'
       spacing:
           padding: [0, 0, 0, 0]
+          width: 100%
       
+  - block: markdown
+    content:
+      title: '📚 My Research'
+      subtitle: ''
+      text: |-
+        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+
+        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        
+        Please reach out to collaborate 😃
+    design:
+      columns: '1'
   - block: collection
     id: papers
     content:
