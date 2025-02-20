@@ -82,14 +82,18 @@
 {{ $columns := $block.design.columns | default "2" }}
 
 {{ if $block.content.title }}
-<div>ddddddddddddddddddddddddddd</div>
+
 <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
 
   <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
     {{ $block.content.title | emojify | $page.RenderString }}
   </div>
 
+  <div>ddddddddddddddddddddddddddd</div>
+
   {{ with $block.content.text }}<p>{{ . | emojify | $page.RenderString }}</p>{{ end }}
+
+   <div>cccccccccccccccccc</div>
 </div>
 {{ end }}
 
