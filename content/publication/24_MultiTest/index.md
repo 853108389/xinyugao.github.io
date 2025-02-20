@@ -1,54 +1,48 @@
 ---
-title: 'An example conference paper'
+title: 'MultiTest: Physical-Aware Object Insertion for Testing Multi-sensor Fusion Perception Systems'
 
 # Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
-# and it will be replaced with their full name and linked to their profile.
 authors:
   - Xinyu Gao
-  - Zhijie Wang 
-  - Yang Feng 
-  - Lei Ma 
-  - Zhenyu Chen 
-  - Baowen 
+  - Zhijie Wang
+  - Yang Feng
+  - Lei Ma
+  - Zhenyu Chen
+  - Baowen Xu
 
 # Author notes (optional)
-#author_notes:
+# author_notes:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
 
-date: '2024-07-01T00:00:00Z'
-doi: ''
+date: '2024-06-24T15:20:25+02:00'
+doi: '10.1145/3597503.3639191'  # DOI 信息
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-01-01T00:00:00Z'
+publishDate: '2024-06-24T15:20:25+02:00'  
 
 # Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: 'Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (ICSE 2024)'
+publication_short: 'ICSE 2024'
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: 'MultiTest proposes a new method for testing multi-sensor fusion perception systems, with a focus on physical-aware object insertion. This paper discusses the approach to enhance the robustness of AI-based multi-sensor fusion systems in autonomous driving and perception applications.'
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# Summary.
+summary: 'A novel approach to testing multi-sensor fusion systems using physical-aware object insertion.'
 
 tags:
-  - Large Language Models
+  - Multi-sensor Fusion
+  - Software Testing
+  - Autonomous Driving
 
 # Display this page in the Featured widget?
 featured: true
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
+# Custom links
+url_pdf: 'https://doi.org/10.1145/3597503.3639191'  # DOI 链接
 url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_poster: ''
@@ -58,34 +52,15 @@ url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_video: 'https://youtube.com'
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ''
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
+# Associated Projects
 projects:
   - example
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+# Slides (optional)
 slides: example
 ---
-
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
