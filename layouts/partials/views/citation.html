@@ -21,7 +21,7 @@
   <span class="font-bold italic"> ({{ $item.Params.publication_short | markdownify}}, {{ $item.Params.level }}) </span>
   {{ if $item.Params.award }}
     <i class="fa-light fa-trophy"></i>
-    <span>{{ partial "functions/get_icon" (dict "name" "trophy" "attributes" "style=\"height: 1.5rem;\"") }} </span>
+    <span class="network-icon" >{{ partial "functions/get_icon" (dict "name" "trophy" "attributes" "style=\"height: 1.5rem;\"") }} </span>
     <span class="font-bold text-red-800"> ({{ $item.Params.award }}) </span>
   {{ end }}
 
