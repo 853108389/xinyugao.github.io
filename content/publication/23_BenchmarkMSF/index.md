@@ -1,5 +1,5 @@
 ---
-title: 'MultiTest: Physical-Aware Object Insertion for Testing Multi-sensor Fusion Perception Systems'
+title: 'Benchmarking Robustness of AI-Enabled Multi-sensor Fusion Systems: Challenges and Opportunities'
 
 # Authors
 authors:
@@ -10,55 +10,40 @@ authors:
   - Zhenyu Chen
   - Baowen Xu
 
-# Author notes (optional)
-# author_notes:
-#  - 'Equal contribution'
-#  - 'Equal contribution'
-
-date: '2024-06-24T15:20:25+02:00'
-doi: '10.1145/3597503.3639191'  # DOI 信息
+date: '2023-12-09T00:00:00+00:00'
+doi: '10.1145/3611643.3616278'  # DOI 信息
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-06-24T15:20:25+02:00'  
+publishDate: '2023-12-09T00:00:00+00:00'  
 
 level: CCF-A
-
-#award: 'ACM SIGSOFT Distinguished Paper Award'
 
 # Publication type.
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: 'Proceedings of the 46th IEEE/ACM International Conference on Software Engineering'
-publication_short: 'ICSE 2024'
+publication: 'Proceedings of the 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering'
+publication_short: 'ESEC/FSE 2023'
 
-abstract: 'MultiTest proposes a new method for testing multi-sensor fusion perception systems, with a focus on physical-aware object insertion. This paper discusses the approach to enhance the robustness of AI-based multi-sensor fusion systems in autonomous driving and perception applications.'
+abstract: 'This paper discusses the challenges and opportunities in benchmarking the robustness of AI-enabled multi-sensor fusion systems, highlighting key issues and solutions in ensuring reliable performance.'
 
 # Summary.
-summary: 'A novel approach to testing multi-sensor fusion systems using physical-aware object insertion.'
+summary: 'An analysis of robustness benchmarking for AI-enabled multi-sensor fusion systems, addressing key challenges and opportunities.'
 
 tags:
   - Multi-sensor Fusion
-  - Software Testing
-  - Autonomous Driving
+  - Benchmarks
+  - AI Systems 
+  - Perception Systems
+  - AI Robustness
 
 # Display this page in the Featured widget?
 featured: true
 
-#links:
-#- name: website
-#  url: 'https://sites.google.com/view/msftest'
 # Custom links
 url_pdf: ''  # PDF
-url_website: 'https://sites.google.com/view/msftest'
-url_code: 'https://github.com/MSFTest/MultiTest'
-
-#url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
-#url_poster: ''
-#url_project: ''
-#url_slides: ''
-#url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-#url_video: 'https://youtube.com'
+url_code: 'https://github.com/MSFTest/AI-MSF-Benchmark'
+url_website: 'https://sites.google.com/view/ai-msf-benchmark'
 
 # Featured image
 image:
@@ -69,7 +54,4 @@ image:
 # Associated Projects
 projects:
   - example
-
-# Slides (optional)
-#slides: example
 ---
