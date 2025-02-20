@@ -1,14 +1,14 @@
-/*body {*/
-/*  max-width: 1200px;*/
-/*  margin: 0 auto;*/
-/*  padding: 20px;*/
-/*}*/
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-/*.container {*/
-/*  width: 100%;*/
-/*  max-width: 1200px;*/
-/*  margin: 0 auto;*/
-/*}*/
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 /*!*修改模板中的样式*!*/
 
@@ -24,10 +24,10 @@
 /*  max-width: none !important; !* 删除最大宽度限制 *!*/
 /*}*/
 
-/*!*设置resume中的最大宽度*!*/
-/*.resume-biography .bio-text {*/
-/*    max-width: none !important;*/
-/*}*/
+/*设置resume中的最大宽度*/
+.resume-biography .bio-text {
+    max-width: none !important;
+}
 
 /*!*设置使用的字体大小*!*/
 /*.text-justify-small {*/
