@@ -1,20 +1,22 @@
 ---
-title: 'Adaptive Test Selection for Deep Neural Networks'
+title: 'CooTest: An Automated Testing Approach for V2X Communication Systems'
 
 # Authors
 authors:
+  - An Guo
   - Xinyu Gao
-  - Yang Feng
-  - Yining Yin
-  - Zixi Liu
   - Zhenyu Chen
-  - Baowen Xu
+  - Yuan Xiao
+  - Jiakai Liu
+  - Xiuting Ge
+  - Weisong Sun
+  - Chunrong Fang
 
-date: '2022-05-27T00:00:00+00:00'
-doi: '10.1145/3510003.3510232'  # DOI 信息
+date: '2024-09-20T00:00:00+00:00'
+doi: '10.1145/3650212.3680373'  # DOI 信息
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-05-27T00:00:00+00:00'  
+publishDate: '2024-09-20T00:00:00+00:00'  
 
 level: CCF-A
 
@@ -22,25 +24,28 @@ level: CCF-A
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: '44th IEEE/ACM International Conference on Software Engineering'
-publication_short: 'ICSE 2022'
+publication: 'Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis'
+publication_short: 'ISSTA 2024'
 
-abstract: 'This paper presents an adaptive test selection method for deep neural networks, focusing on optimizing test coverage and efficiency.'
+abstract: 'CooTest presents an automated testing approach for V2X communication systems, addressing key challenges in ensuring reliable and robust vehicle-to-everything interactions.'
 
 # Summary.
-summary: 'A novel approach to adaptive test selection for deep neural networks, improving testing efficiency and robustness.'
+summary: 'An automated testing approach for V2X communication systems to enhance reliability and robustness.'
 
 tags:
-  - Deep Learning
+  - Cooperative Perception Systems
+  - Autonomous Driving
+  - Metamorphic Testing
   - Software Testing
-  - AI Robustness
+
+
 
 # Display this page in the Featured widget?
 featured: true
 
 # Custom links
 url_pdf: ''  # PDF
-url_website: 'https://doi.org/10.1145/3510003.3510232'
+url_website: 'https://doi.org/10.1145/3650212.3680373'
 url_code: ''
 
 # Featured image

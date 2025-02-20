@@ -41,7 +41,8 @@ tags:
   - Multi-sensor Fusion
   - Perception Systems
   - Autonomous Driving
-  - AI Testing
+  - Metamorphic Testing
+  - Software Testing
 
 # Display this page in the Featured widget?
 featured: true
