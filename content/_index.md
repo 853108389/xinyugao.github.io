@@ -74,7 +74,7 @@ sections:
           - publication
         exclude_featured: false
     design:
-      view: citation
+      view: card   # 这个是影响不同collection渲染逻辑的页面
   - block: collection
     id: talks
     content:

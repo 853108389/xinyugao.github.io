@@ -98,13 +98,8 @@
   {{ $config := dict "columns" ($block.design.columns | default 2) "len" (len $query) "fill_image" ($block.design.fill_image | default true) }}
   {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" . "view" $view "config" $config) }}
 
-  <!--  这里是论文列表-->
+  <!--  这里是子项目-->
   {{ range $index, $item := $query }}
-    <p> index : {{$index}}</p>
-    <p> item : {{$item}}</p>
-    <p>block : {{$block}}</p>
-    <p>view : {{$view}}</p>
-    <p>config : {{$config}}</p>
     {{ partial "functions/render_view" (dict "page" $block "item" . "view" $view "index" $index "config" $config) }}
   {{end}}
 
