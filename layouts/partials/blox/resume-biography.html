@@ -116,7 +116,7 @@
                     <ul class="list-disc list-inside space-y-1 pl-5">
                         {{ range . }}
                         <li>
-                            {{ . | markdownify | emojify }}
+                            {{ .name | markdownify | emojify }}  {{ .description | markdownify | emojify }}
                         </li>
                         {{ end }}
                     </ul>
@@ -125,21 +125,6 @@
             {{ end }}
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-between mt-6 dark:text-gray-300">
-
-                {{ with $person.interests }}
-                <div class="w-3/7"></div>
-                    <div class="bio-text" {{ with $block.design.biography.style }}{{ (printf "style=\"%s\"" .) | safe.HTMLAttr }}{{end}}>
-                        <div class="section-subheading mb-3">{{ i18n "interests" | markdownify }}</div>
-                        <ul class="list-disc list-inside space-y-1 pl-5">
-                            {{ range . }}
-                            <li>
-                                {{ . | markdownify | emojify }}
-                            </li>
-                            {{ end }}
-                        </ul>
-                   </div>
-                </div>
-                {{ end }}
 
                 {{ with $person.education }}
                 <div class="w-3/7"  {{ with $block.design.biography.style }}{{ (printf "style=\"%s\"" .) | safe.HTMLAttr }}{{end}}>
