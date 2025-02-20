@@ -18,6 +18,8 @@ publishDate: '2023-12-09T00:00:00+00:00'
 
 level: CCF-A
 
+award: 'ACM SIGSOFT Distinguished Paper Award'
+
 # Publication type.
 publication_types: ['paper-conference']
 
