@@ -41,16 +41,19 @@ profiles:
     url: https://orcid.org/my-orcid?orcid=0009-0004-7135-1833
 
 interests:
-  - name: **Robustness of Multi-Sensor Fusion Systems.** 
+  - name: |-
+            **Robustness of Multi-Sensor Fusion Systems.** 
     description: This involves analyzing and testing the robustness issues, particularly those arising from heterogeneous data fusion, in the multi-sensor fusion process.
     example:
       - MultiTest, ICSE'24
       - MSFBenchmark, FSE'23
-  - name: **Quality Assurance of Autonomous Driving Systems.** 
+  - name: |-
+            **Quality Assurance of Autonomous Driving Systems.** 
     description: This focuses on evaluating and enhancing the reliability of Autonomous Driving Systems.
       - CooTest, ISSTA'24 
       - SoVar, ASE'24
-  - name: **Quality Assurance of Complex AI Systems**. 
+  - name: |-
+            **Quality Assurance of Complex AI Systems**. 
     description: This involves investigating how we can analyze, test, and enhance AI-based software systems.
       - ATS, ICSE'22
       - DeepGini, ISSTA'20
