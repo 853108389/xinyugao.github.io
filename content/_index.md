@@ -13,7 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`) #
       username: admin
-      text: ""
+      text: "I am currently a Ph.D. student in the Department of Software Engineering, Nanjing University, advised by Prof. Yang Feng, Zhenyu Chen and Prof. Baowen Xu. My research focuses on reliability assurance of the AI-enabled complex software systems within the field of Software Engineering (SE). Recently, my work has explored testing, analysis, and repair for multi-sensor fusion based perception systems in autonomous driving. My work has been published in top-tier SE venues (e.g., ICSE, FSE, ASE, ISSTA)  and has received a distinguished paper award (FSE '23)."
       # Show a call-to-action button under your biography? (optional)
 #      button:
 #        text: Download CV
@@ -131,6 +131,5 @@ sections:
         css_class: "bg-primary-700"
         css_style: ""
 ---
-## About me
 
-I am currently a Ph.D. student in the Department of Software Engineering, Nanjing University, advised by Prof. Yang Feng, Zhenyu Chen and Prof. Baowen Xu. My research focuses on reliability assurance of the AI-enabled complex software systems within the field of Software Engineering (SE). Recently, my work has explored testing, analysis, and repair for multi-sensor fusion based perception systems in autonomous driving. My work has been published in top-tier SE venues (e.g., ICSE, FSE, ASE, ISSTA)  and has received a distinguished paper award (FSE '23).
+
