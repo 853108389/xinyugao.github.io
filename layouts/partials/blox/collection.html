@@ -100,9 +100,11 @@
 
   <!--  这里是论文列表-->
   {{ range $index, $item := $query }}
+    <p> index : {{$index}}</p>
+    <p> item : {{$item}}</p>
     {{ partial "functions/render_view" (dict "page" $block "item" . "view" $view "index" $index "config" $config) }}
   {{end}}
-   <div>eeeeeeeeeeeee</div>
+
   {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" . "view" $view) }}
 
 </div>
