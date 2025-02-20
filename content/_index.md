@@ -12,17 +12,16 @@ sections:
   - block: resume-biography
     content:
       # Choose a user profile to display (a folder name within `content/authors/`) #
-      username: admin2
+      username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
 #      button:
 #        text: Download CV
 #        url: uploads/resume.pdf
     design:
-      css_class: "bg-primary-700"
+#      css_class: "bg-primary-700"
       spacing:
         padding: [0, 0, 0, 0]
-        width: 100%
         
 #      biography:
 #        style: 'text-align: justify; font-size: 0.8em;'
@@ -38,37 +37,6 @@ sections:
 #          size: cover
 #          position: center
 #          parallax: false
- 
-    
-
-  - content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        <div class="my-custom-width">
-         I am a research scientist in the Moons.
-         I am a research scientist in the Moons.
-         I am a research scientist in the Moons.
-         I am a research scientist in the Moons.
-         I am a research scientist in the Moons.
-         I am a research scientist in the Moons.
-        
-         I apply a range of quali.
-        </div>
-#       <div class="grid grid-cols-2 gap-4">
-#            <div>
-#              I am a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-#            </div>
-#            <div>
-#              I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-#            </div>
-#        </div>
-#          Please reach out to collaborate
-    design:
-      columns: '1'
-      spacing:
-          padding: [0, 0, 0, 0]
-          width: 100%
       
   - block: markdown
     content:
@@ -163,3 +131,6 @@ sections:
         css_class: "bg-primary-700"
         css_style: ""
 ---
+## About me
+
+I am currently a Ph.D. student in the Department of Software Engineering, Nanjing University, advised by Prof. Yang Feng, Zhenyu Chen and Prof. Baowen Xu. My research focuses on reliability assurance of the AI-enabled complex software systems within the field of Software Engineering (SE). Recently, my work has explored testing, analysis, and repair for multi-sensor fusion based perception systems in autonomous driving. My work has been published in top-tier SE venues (e.g., ICSE, FSE, ASE, ISSTA)  and has received a distinguished paper award (FSE '23).
