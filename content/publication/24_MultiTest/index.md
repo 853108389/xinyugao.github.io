@@ -21,11 +21,13 @@ doi: '10.1145/3597503.3639191'  # DOI 信息
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-06-24T15:20:25+02:00'  
 
+level: CCF-A
+
 # Publication type.
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: 'Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (ICSE 2024)'
+publication: 'Proceedings of the 46th IEEE/ACM International Conference on Software Engineering'
 publication_short: 'ICSE 2024'
 
 abstract: 'MultiTest proposes a new method for testing multi-sensor fusion perception systems, with a focus on physical-aware object insertion. This paper discusses the approach to enhance the robustness of AI-based multi-sensor fusion systems in autonomous driving and perception applications.'
