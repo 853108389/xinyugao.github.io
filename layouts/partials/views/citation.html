@@ -13,7 +13,7 @@
 
 
 <!--  </div>-->
-  <p class="mb-0">{{ $item.Title }} </p>
+  <p>{{ $item.Title }} </p>
   <p class="article-metadata li-cite-author">
     {{ partial "page_metadata_authors" $item  }}
   </p>
@@ -23,7 +23,7 @@
 <!--    <i class="fa-light fa-trophy"></i>-->
     <div class="inline-flex">
       <span>{{ partial "functions/get_icon" (dict "name" "trophy" "attributes" "style=\"height: 1.5rem;\"") }} </span>
-      <span class="font-bold" style="color: #991b1b"> ({{ $item.Params.award }}) </span>
+      <span class="font-bold" style="color: #991b1b"> {{ $item.Params.award }} </span>
     </div>
   {{ end }}
 
