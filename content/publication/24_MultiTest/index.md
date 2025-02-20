@@ -45,12 +45,12 @@ tags:
 # Display this page in the Featured widget?
 featured: true
 
-links:
-- name: website
-  url: 'https://sites.google.com/view/msftest'
+#links:
+#- name: website
+#  url: 'https://sites.google.com/view/msftest'
 # Custom links
-url_pdf: 'https://doi.org/10.1145/3597503.3639191'  # DOI 链接
-#url_website: 'https://sites.google.com/view/msftest'
+url_pdf: ''  # PDF
+url_website: 'https://sites.google.com/view/msftest'
 url_code: 'https://github.com/MSFTest/MultiTest'
 
 #url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'

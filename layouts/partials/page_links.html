@@ -137,8 +137,15 @@
 {{ end }}
 {{ with $page.Params.doi }}
 <a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="https://doi.org/{{ . }}" target="_blank" rel="noopener">
+  {{ partial "functions/get_icon" (dict "name" "link" "attributes" "style=\"height: 1em\" class='inline-block'") }}
   DOI
 </a>
+{{ with $page.Params.url_website }}
+<a class="hb-attachment-link {{ if $is_list }}hb-attachment-small{{else}}hb-attachment-large{{end}}" href="https://doi.org/{{ . }}" target="_blank" rel="noopener">
+  {{ partial "functions/get_icon" (dict "name" "document" "attributes" "style=\"height: 1em\" class='inline-block'") }}
+  DOI
+</a>
+
 {{ end }}
 {{ range $page.Params.links }}
   {{ $pack := or .icon_pack "fas" }}
