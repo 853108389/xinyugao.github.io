@@ -44,10 +44,10 @@ body {
 /*    color: #555; !* 灰色 *!*/
 /*}*/
 
-/*.education {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*}*/
+.education {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 

@@ -48,7 +48,7 @@ interests:
 education:
   - area: PhD Software Engineering
     institution: Nanjing University
-    date_start: 2021-09-01
+    date_start: 2021-09
     date_end: 2025-06-01
     supervisor: Prof. Yang Feng, Zhenyu Chen and Prof. Baowen Xu
     # summary: |
@@ -58,8 +58,8 @@ education:
     #   url: 'https://example.com'
   - area: MEng Software Engineering
     institution: Nanjing University
-    date_start: 2019-09-01
-    date_end: 2021-06-01
+    date_start: 2019-09
+    date_end: 2021-06
     supervisor: Prof. Zhenyu Chen
     # summary: |
     #   GPA: 3.8/4.0
@@ -70,8 +70,8 @@ education:
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - institution: Nanjing University of Posts and Telecommunications 
     area: BSc 
-    date_start: 2015-09-01
-    date_end: 2019-06-01
+    date_start: 2015-09
+    date_end: 2019-06
     # summary: |
     #   GPA: 3.4/4.0
       
