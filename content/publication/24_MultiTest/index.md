@@ -71,5 +71,5 @@ projects:
   - example
 
 # Slides (optional)
-slides: example
+#slides: example
 ---
