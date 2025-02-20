@@ -3,8 +3,7 @@ title: 'MultiTest: Physical-Aware Object Insertion for Testing Multi-sensor Fusi
 
 # Authors
 authors:
-  - |- 
-       **Xinyu Gao**
+  - Xinyu Gao
   - Zhijie Wang
   - Yang Feng
   - Lei Ma
