@@ -123,7 +123,7 @@
                 {{ end }}
 
                 {{ with $person.education }}
-                <div class=""  {{ with $block.design.biography.style }}{{ (printf "style=\"%s\"" .) | safe.HTMLAttr }}{{end}}>
+                <div class="flex"  {{ with $block.design.biography.style }}{{ (printf "style=\"%s\"" .) | safe.HTMLAttr }}{{end}}>
                     <div class="section-subheading mb-3">{{ i18n "education" | markdownify }}</div>
                     <ul class="">
                         {{ range . }}

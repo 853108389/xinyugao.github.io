@@ -49,7 +49,7 @@ education:
   - area: PhD Software Engineering
     institution: Nanjing University
     date_start: 2021-09
-    date_end: 2025-06-01
+    date_end: 2025-06
     supervisor: Prof. Yang Feng, Zhenyu Chen and Prof. Baowen Xu
     # summary: |
     #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
