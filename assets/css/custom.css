@@ -21,7 +21,7 @@ body {
 
 /*!*设置content中的最大宽度*!*/
 .max-w-prose {
-  max-width: 80%; !important /* 设置为 80 个字符宽度 */
+  max-width: 150ch; !important /* 设置为 80 个字符宽度 */
   /*max-width: 80ch; !important !* 设置为 80 个字符宽度 *!*/
   text-align: justify;
   /*max-width: none !important; !* 删除最大宽度限制 *!*/
