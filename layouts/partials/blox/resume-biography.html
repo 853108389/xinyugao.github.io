@@ -118,6 +118,13 @@
                         <li>
                             {{ .name | markdownify | emojify }}  {{ .description | markdownify | emojify }}
                         </li>
+                        {{ range .example }}
+
+                        <li>
+                            [{{ . | markdownify | emojify }}]
+                        </li>
+
+                        {{ end }}
                         {{ end }}
                     </ul>
                </div>

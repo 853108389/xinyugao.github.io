@@ -50,11 +50,13 @@ interests:
   - name: |-
             **Quality Assurance of Autonomous Driving Systems.** 
     description: This focuses on evaluating and enhancing the reliability of Autonomous Driving Systems.
+    example:
       - CooTest, ISSTA'24 
       - SoVar, ASE'24
   - name: |-
             **Quality Assurance of Complex AI Systems**. 
     description: This involves investigating how we can analyze, test, and enhance AI-based software systems.
+    example:
       - ATS, ICSE'22
       - DeepGini, ISSTA'20
 
