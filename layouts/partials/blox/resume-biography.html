@@ -117,11 +117,14 @@
                         {{ range . }}
                         <li>
                             {{ .name | markdownify | emojify }}  {{ .description | markdownify | emojify }}
+                            <div class="mt-0">
+                                   {{ range .example }}
+                                     <span class="text-justify-small2-gray ">[{{ . | markdownify | emojify }}] </span>
+                                {{ end }}
+                            </div>
                         </li>
 
-                        {{ range .example }}
-                             <span class="text-justify-small2-gray mt-0">[{{ . | markdownify | emojify }}] </span>
-                        {{ end }}
+
 
                         {{ end }}
                     </ul>
