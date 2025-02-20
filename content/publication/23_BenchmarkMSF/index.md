@@ -35,9 +35,11 @@ summary: 'An analysis of robustness benchmarking for AI-enabled multi-sensor fus
 tags:
   - Multi-sensor Fusion
   - Benchmarks
-  - AI Systems 
   - Perception Systems
+  - Autonomous Driving
   - AI Robustness
+  
+ 
 
 # Display this page in the Featured widget?
 featured: true

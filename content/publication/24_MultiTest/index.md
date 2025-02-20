@@ -39,8 +39,9 @@ summary: 'A novel approach to testing multi-sensor fusion systems using physical
 
 tags:
   - Multi-sensor Fusion
-  - Software Testing
+  - Perception Systems
   - Autonomous Driving
+  - AI Testing
 
 # Display this page in the Featured widget?
 featured: true

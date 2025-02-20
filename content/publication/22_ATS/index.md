@@ -31,9 +31,10 @@ abstract: 'This paper presents an adaptive test selection method for deep neural
 summary: 'A novel approach to adaptive test selection for deep neural networks, improving testing efficiency and robustness.'
 
 tags:
-  - Deep Learning
-  - Software Testing
-  - AI Robustness
+  - Deep neural networks
+  - Deep Learning Systems
+  - Adaptive random testing
+  - AI Testing
 
 # Display this page in the Featured widget?
 featured: true
