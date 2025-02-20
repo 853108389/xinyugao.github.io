@@ -17,7 +17,7 @@
   <p class="article-metadata li-cite-author">
     {{ partial "page_metadata_authors" $item  }}
   </p>
-  <p>  {{- $item.Params.publication | markdownify -}}. <strong> ({{ $item.Params.publication_short | markdownify}}, {{ $item.Params.level }}) </strong> </p>
+  <span> {{- $item.Params.publication | markdownify -}} </span>  <span class="font-bold italic"> ({{ $item.Params.publication_short | markdownify}}, {{ $item.Params.level }}) </span>
 
 
 <!--  {{ if $item.Params.publication_short }}-->
