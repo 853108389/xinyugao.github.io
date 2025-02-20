@@ -74,7 +74,17 @@ sections:
           - publication
         exclude_featured: false
     design:
-      view: card   # 这个是影响不同collection渲染逻辑的页面
+      view: citation   # 这个是影响不同collection渲染逻辑的页面
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ""
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      view: card 
   - block: collection
     id: talks
     content:
