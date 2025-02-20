@@ -89,19 +89,16 @@
     {{ $block.content.title | emojify | $page.RenderString }}
   </div>
 
-
-
   {{ with $block.content.text }}<p>{{ . | emojify | $page.RenderString }}</p>{{ end }}
 
-   <div>cccccccccccccccccc</div>
 </div>
 {{ end }}
 
 <div class="flex flex-col items-center px-6">
-   <div>cccccccccccccccccc</div>
   {{ $config := dict "columns" ($block.design.columns | default 2) "len" (len $query) "fill_image" ($block.design.fill_image | default true) }}
   {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" . "view" $view "config" $config) }}
-  <div>ddddddddddddddddddddddddddd</div>
+
+  <!--  这里是论文列表-->
   {{ range $index, $item := $query }}
     {{ partial "functions/render_view" (dict "page" $block "item" . "view" $view "index" $index "config" $config) }}
   {{end}}
