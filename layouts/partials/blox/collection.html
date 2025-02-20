@@ -89,7 +89,7 @@
     {{ $block.content.title | emojify | $page.RenderString }}
   </div>
 
-  <div>ddddddddddddddddddddddddddd</div>
+
 
   {{ with $block.content.text }}<p>{{ . | emojify | $page.RenderString }}</p>{{ end }}
 
@@ -98,14 +98,14 @@
 {{ end }}
 
 <div class="flex flex-col items-center px-6">
-
+   <div>cccccccccccccccccc</div>
   {{ $config := dict "columns" ($block.design.columns | default 2) "len" (len $query) "fill_image" ($block.design.fill_image | default true) }}
   {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" . "view" $view "config" $config) }}
-
+  <div>ddddddddddddddddddddddddddd</div>
   {{ range $index, $item := $query }}
     {{ partial "functions/render_view" (dict "page" $block "item" . "view" $view "index" $index "config" $config) }}
   {{end}}
-
+   <div>eeeeeeeeeeeee</div>
   {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" . "view" $view) }}
 
 </div>
