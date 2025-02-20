@@ -14,10 +14,10 @@ body {
 
 /*设置一行最多多少个字*/
 .prose {
-  max-width: 200ch; !important /* 设置为 80 个字符宽度 */
-  /*max-width: 80ch; !important !* 设置为 80 个字符宽度 *!*/
-  text-align: justify;
+  width: 100% !important;
+  max-width: none !important;
 }
+
 
 /*!*设置content中的最大宽度*!*/
 /*.max-w-prose {*/
