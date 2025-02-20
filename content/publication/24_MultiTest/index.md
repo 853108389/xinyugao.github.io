@@ -47,13 +47,15 @@ featured: true
 
 # Custom links
 url_pdf: 'https://doi.org/10.1145/3597503.3639191'  # DOI 链接
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_website: 'https://sites.google.com/view/msftest'
+url_code: 'https://github.com/MSFTest/MultiTest'
+
+#url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+#url_poster: ''
+#url_project: ''
+#url_slides: ''
+#url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
+#url_video: 'https://youtube.com'
 
 # Featured image
 image:
