@@ -23,9 +23,8 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
         width: 100%
-        
-#      biography:
-#        style: 'text-align: justify; font-size: 0.8em;'
+      biography:
+        style: 'text-align: justify; font-size: 0.8em;'
 #    design:
 #      css_class: dark
 #      background:
