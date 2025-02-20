@@ -1,78 +1,78 @@
-body {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
+/*body {*/
+/*  max-width: 1200px;*/
+/*  margin: 0 auto;*/
+/*  padding: 20px;*/
+/*}*/
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/*修改模板中的样式*/
-
-/*设置一行最多多少个字*/
-.prose {
-  /*max-width: 100ch; !important !* 设置为 80 个字符宽度 *!*/
-  max-width: 80ch; !important /* 设置为 80 个字符宽度 */
-  text-align: justify;
-}
-
-/*设置content中的最大宽度*/
-.max-w-prose {
-  max-width: none !important; /* 删除最大宽度限制 */
-}
-
-/*设置resume中的最大宽度*/
-.resume-biography .bio-text {
-    max-width: none !important;
-}
-
-/*设置使用的字体大小*/
-.text-justify-small {
-    text-align: justify; /* 文本两端对齐 */
-    font-size: 0.8em; /* 字体大小设为 0.8 倍父元素 */
-}
-
-.text-justify-small2-gray {
-    text-align: justify; /* 文本两端对齐 */
-    font-size: 0.8em; /* 字体大小设为 0.8 倍父元素 */
-    color: #555; /* 灰色 */
-}
-
-.education {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
-
-
-
-/*.my-custom-width {*/
+/*.container {*/
 /*  width: 100%;*/
-/*  max-width: 12000px; !* 设置最大宽度 *!*/
-/*  margin: 0 auto; !* 居中对齐 *!*/
-/*  padding: 20px; !* 内边距 *!*/
-/*  background-color: #f9f9f9; !* 可选的背景色 *!*/
+/*  max-width: 1200px;*/
+/*  margin: 0 auto;*/
 /*}*/
 
-/*.resume-biography {*/
-/*  #profile {*/
-/*    text-align: center;*/
-/*    padding: 30px 10px;*/
-/*    position: relative;*/
-/*  }*/
+/*!*修改模板中的样式*!*/
 
-/*  !* Custom avatar size on homepage *!*/
-
-/*  .avatar {*/
-/*    width: 2150px; !important*/
-/*    height: 2150px; !important*/
-/*    max-width: 2150px; !important*/
-/*    max-height: 2150px; !important*/
-/*    object-fit: cover;*/
-/*  }*/
+/*!*设置一行最多多少个字*!*/
+/*.prose {*/
+/*  !*max-width: 100ch; !important !* 设置为 80 个字符宽度 *!*!*/
+/*  max-width: 80ch; !important !* 设置为 80 个字符宽度 *!*/
+/*  text-align: justify;*/
 /*}*/
+
+/*!*设置content中的最大宽度*!*/
+/*.max-w-prose {*/
+/*  max-width: none !important; !* 删除最大宽度限制 *!*/
+/*}*/
+
+/*!*设置resume中的最大宽度*!*/
+/*.resume-biography .bio-text {*/
+/*    max-width: none !important;*/
+/*}*/
+
+/*!*设置使用的字体大小*!*/
+/*.text-justify-small {*/
+/*    text-align: justify; !* 文本两端对齐 *!*/
+/*    font-size: 0.8em; !* 字体大小设为 0.8 倍父元素 *!*/
+/*}*/
+
+/*.text-justify-small2-gray {*/
+/*    text-align: justify; !* 文本两端对齐 *!*/
+/*    font-size: 0.8em; !* 字体大小设为 0.8 倍父元素 *!*/
+/*    color: #555; !* 灰色 *!*/
+/*}*/
+
+/*.education {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+
+
+
+
+
+/*!*.my-custom-width {*!*/
+/*!*  width: 100%;*!*/
+/*!*  max-width: 12000px; !* 设置最大宽度 *!*!*/
+/*!*  margin: 0 auto; !* 居中对齐 *!*!*/
+/*!*  padding: 20px; !* 内边距 *!*!*/
+/*!*  background-color: #f9f9f9; !* 可选的背景色 *!*!*/
+/*!*}*!*/
+
+/*!*.resume-biography {*!*/
+/*!*  #profile {*!*/
+/*!*    text-align: center;*!*/
+/*!*    padding: 30px 10px;*!*/
+/*!*    position: relative;*!*/
+/*!*  }*!*/
+
+/*!*  !* Custom avatar size on homepage *!*!*/
+
+/*!*  .avatar {*!*/
+/*!*    width: 2150px; !important*!*/
+/*!*    height: 2150px; !important*!*/
+/*!*    max-width: 2150px; !important*!*/
+/*!*    max-height: 2150px; !important*!*/
+/*!*    object-fit: cover;*!*/
+/*!*  }*!*/
+/*!*}*!*/
