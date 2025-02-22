@@ -90,11 +90,18 @@ sections:
       title: 'Award and Honors'
       subtitle: ''
       text: |-
-        - ACM SIGSOFT Distinguished Paper Award (ESEC/FSE'23)
-        - National Scholarship for Postgraduate Students (2021)
-        - China Scholarship Council (CSC) scholarships. (2023)
-        - NR Scholarship Talents Scholarship by Nanjing University (2024)
-        - Talents Scholarship by Nanjing University (2023, 2022)
+            <ul style="list-style-type: square; padding-left: 20px;">
+                <li>ACM SIGSOFT Distinguished Paper Award (ESEC/FSE'23)</li>
+                <li>National Scholarship for Postgraduate Students (2021)</li>
+                <li>China Scholarship Council (CSC) scholarships. (2023)</li>
+                <li>NR Scholarship Talents Scholarship by Nanjing University (2024)</li>
+                <li>Talents Scholarship by Nanjing University (2023, 2022)</li>
+           </ul>
+#        - ACM SIGSOFT Distinguished Paper Award (ESEC/FSE'23)
+#        - National Scholarship for Postgraduate Students (2021)
+#        - China Scholarship Council (CSC) scholarships. (2023)
+#        - NR Scholarship Talents Scholarship by Nanjing University (2024)
+#        - Talents Scholarship by Nanjing University (2023, 2022)
 
       
       
