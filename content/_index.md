@@ -83,6 +83,7 @@ sections:
         enable: true
     design:
       view: citation   # 这个是影响不同collection渲染逻辑的页面
+      columns: 1
     
   - block: markdown
     content:
