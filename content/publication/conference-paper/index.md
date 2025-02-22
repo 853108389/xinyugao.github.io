@@ -36,7 +36,7 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere t
 tags:
   - Large Language Models
 
-hidden: true
+hidden_in_homepage: true # (Optional) Prevent this page from appearing in homepage
 # Display this page in the Featured widget?
 featured: false
 
