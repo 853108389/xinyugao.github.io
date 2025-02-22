@@ -1,7 +1,7 @@
 <!--<div class="list-disc pl-5 space-y-0" style="font-size: 1em;">-->
 <!--  {{ .Inner | markdownify }}-->
 <!--</div>-->
-<ul class="list-disc pl-5 space-y-1 text-base">
+<ul class="list-disc pl-5 space-y-1 text-base text-left">
     {{ with .Get "line1" }}<li>{{ . | markdownify }}</li>{{ end }}
     {{ with .Get "line2" }}<li>{{ . | markdownify }}</li>{{ end }}
     {{ with .Get "line3" }}<li>{{ . | markdownify }}</li>{{ end }}
