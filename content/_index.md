@@ -93,10 +93,21 @@ sections:
         {{% honors
             line1="ACM SIGSOFT Distinguished Paper Award (ESEC/FSE'23)"
             line2="National Scholarship for Postgraduate Students (2021)"
-            line3="China Scholarship Council (CSC) scholarships. (2023)"
+            line3="China Scholarship Council (CSC) scholarships (2023)"
             line4="NR Scholarship Talents Scholarship by Nanjing University (2024)"
             line5="Talents Scholarship by Nanjing University (2023, 2022)"
         %}} {{% /honors %}}
+  
+  - block: markdown
+    content:
+      title: 'Academia'
+      text: |
+        {{% education university="Nanjing University" duration="2024 - present" degree="Ph.D. Software Engineering" supervisor="Supervised by Prof. Lei Ma" %}}
+        {{% education university="Nanjing University" duration="2021 - 2023" degree="MEng Software Engineering" supervisor="Supervised by Prof. Lei Ma" %}}
+        {{% education university="Nanjing University of Posts and Telecommunications" duration="2017 - 2021" %}}
+
+
+
 
 #  - content:
 #     text: |
