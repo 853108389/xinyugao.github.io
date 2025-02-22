@@ -90,7 +90,8 @@ sections:
       title: 'Award and Honors'
       subtitle: ''
       text: |-
-            <ul style="list-disc pl-5 space-y-4 font-size: 1em;">
+            {{ partial "custom-block.html" . }}
+            <ul class="list-disc pl-5 space-y-4 font-size: 1em;">
                 <li style="color: #333333;">ACM SIGSOFT Distinguished Paper Award. (ESEC/FSE'23)</li>
                 <li>National Scholarship for Postgraduate Students. (2021)</li>
                 <li>China Scholarship Council (CSC) scholarships. (2023)</li>
