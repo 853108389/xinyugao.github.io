@@ -90,17 +90,14 @@ sections:
       title: 'Award and Honors'
       subtitle: ''
       text: |
-            {{% custom title="Custom Block" %}}
-            This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.  This is custom content inside a shortcode.
-            {{% /custom %}}
-            {{ partial "custom-block.html" . }}
-            <ul class="list-disc pl-5 space-y-4 font-size: 1em;">
-                <li style="color: #333333;">ACM SIGSOFT Distinguished Paper Award. (ESEC/FSE'23)</li>
-                <li>National Scholarship for Postgraduate Students. (2021)</li>
-                <li>China Scholarship Council (CSC) scholarships. (2023)</li>
-                <li>NR Scholarship Talents Scholarship by Nanjing University. (2024)</li>
-                <li>Talents Scholarship by Nanjing University. (2023, 2022)</li>
-            </ul>
+            {{% honors %}}
+                - ACM SIGSOFT Distinguished Paper Award (ESEC/FSE'23)
+                - National Scholarship for Postgraduate Students (2021)
+                - China Scholarship Council (CSC) scholarships. (2023)
+                - NR Scholarship Talents Scholarship by Nanjing University (2024)
+                - Talents Scholarship by Nanjing University (2023, 2022)
+            {{% /honors %}}        
+
 #        - ACM SIGSOFT Distinguished Paper Award (ESEC/FSE'23)
 #        - National Scholarship for Postgraduate Students (2021)
 #        - China Scholarship Council (CSC) scholarships. (2023)
