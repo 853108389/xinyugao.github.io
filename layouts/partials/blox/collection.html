@@ -62,6 +62,7 @@
 {{ if $block.content.filters.exclude_future }}
   {{ $query = where $query "Date" "<" now }}
 {{ end }}
+{{ $query = where $query "Params.is_show" "==" false }}
 
 {{ $count := len $query }}
 

@@ -36,6 +36,7 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere t
 tags:
   - Large Language Models
 
+is_show: false
 # Display this page in the Featured widget?
 featured: false
 
