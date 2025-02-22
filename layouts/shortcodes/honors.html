@@ -1,6 +1,7 @@
 <!--<div class="list-disc pl-5 space-y-0" style="font-size: 1em;">-->
 <!--  {{ .Inner | markdownify }}-->
 <!--</div>-->
+{{ $lines := split .Inner "\n" }}
 <ul class="list-disc pl-5 space-y-1 text-base">
   {{ range $lines }}
     {{ $line := trim . " " }}
