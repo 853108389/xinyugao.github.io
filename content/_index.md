@@ -63,8 +63,7 @@ sections:
           - publication
         featured_only: true
       count: 2
-      archive:
-        enable: true
+      
     design:
       view: article-grid
       columns: 2
@@ -80,6 +79,8 @@ sections:
           - publication
         exclude_featured: false
       count: 1000
+      archive:
+        enable: true
     design:
       view: citation   # 这个是影响不同collection渲染逻辑的页面
 
