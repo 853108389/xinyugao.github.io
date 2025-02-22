@@ -6,7 +6,7 @@
   {{ range $lines }}
     {{ $line := trim . " " }}
     {{ if gt (len $line) 0 }}
-      <li>{{ $line | markdownify }}</li>
+      <li>{{ $line}}</li>
     {{ end }}
   {{ end }}
 </ul>
