@@ -63,11 +63,12 @@
   {{ $query = where $query "Date" "<" now }}
 {{ end }}
 
+{{/* 为is_show添加默认值 */}}
 {{ range $index, $item := $query }}
   {{ $item.Params.is_show = $item.Params.is_show | default true }}
 {{ end }}
 
-{{ $query = where $query "Params.is_show" "==" true }}
+{{ $query = where $query "Params.hidden" "==" true }}
 
 
 {{ $count := len $query }}
