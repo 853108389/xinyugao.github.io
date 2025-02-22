@@ -85,12 +85,11 @@ sections:
       view: citation   # 这个是影响不同collection渲染逻辑的页面
       columns: 1
   
-  
+  # 只能用属性传递，用内容传递，内容会显示成代码块，没办法解析,(应该是我不会，而不是不能)
   - block: markdown
     content:
       title: 'Award and Honors'
       text: |
-    # 只能用属性传递，用内容传递，内容会显示成代码块，没办法解析,(应该是我不会，而不是不能)
         {{% honors
             line1="ACM SIGSOFT Distinguished Paper Award (ESEC/FSE'23)"
             line2="National Scholarship for Postgraduate Students (2021)"
