@@ -103,9 +103,9 @@ sections:
       title: 'Academia'
       text: |
         {{% education university="Nanjing University" duration="2021.09 - present" degree="Ph.D. Software Engineering" supervisor="Supervised by Prof. Yang Feng, Prof. Zhenyu Chen and Prof. Baowen Xu." %}}
-        {{% education university="Nanjing University" duration="2024.07 - present" degree="Visiting, Computer Science" supervisor="Supervised by Prof. Lei Ma" %}}
-        {{% education university="The University of Tokyo" duration="2023.10 - 2024.03" degree="Visiting, Electrical and Computer Engineering" supervisor="Supervised by Prof. Lei Ma" %}}
-        {{% education university="University of Alberta" duration="2019.09 - 2021.06" degree="MEng Software Engineering" supervisor="Supervised by Prof. Yang Feng, Prof. Zhenyu Chen" %}}
+        {{% education university="The University of Tokyo (Visiting)" duration="2024.07 - present" degree="Computer Science" supervisor="Supervised by Prof. Lei Ma" %}}
+        {{% education university="University of Alberta duration (Visiting)="2023.10 - 2024.03" degree="Electrical and Computer Engineering" supervisor="Supervised by Prof. Lei Ma" %}}
+        {{% education university="Nanjing University" duration="2019.09 - 2021.06" degree="MEng Software Engineering" supervisor="Supervised by Prof. Yang Feng, Prof. Zhenyu Chen" %}}
         {{% education university="Nanjing University of Posts and Telecommunications" duration="2015.09 - 2019.06" %}}
 
 
