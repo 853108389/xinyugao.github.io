@@ -85,9 +85,11 @@ sections:
       view: citation   # 这个是影响不同collection渲染逻辑的页面
       columns: 1
   
-
-  - content:
-     text: |
+  
+  - block: markdown
+    content:
+      title: 'Award and Honors'
+      text: |
         {{% honors
             line1="ACM SIGSOFT Distinguished Paper Award (ESEC/FSE'23)"
             line2="National Scholarship for Postgraduate Students (2021)"
@@ -95,6 +97,16 @@ sections:
             line4="NR Scholarship Talents Scholarship by Nanjing University (2024)"
             line5="Talents Scholarship by Nanjing University (2023, 2022)"
         %}} {{% /honors %}}
+
+#  - content:
+#     text: |
+#        {{% honors
+#            line1="ACM SIGSOFT Distinguished Paper Award (ESEC/FSE'23)"
+#            line2="National Scholarship for Postgraduate Students (2021)"
+#            line3="China Scholarship Council (CSC) scholarships. (2023)"
+#            line4="NR Scholarship Talents Scholarship by Nanjing University (2024)"
+#            line5="Talents Scholarship by Nanjing University (2023, 2022)"
+#        %}} {{% /honors %}}
 
 #  - block: markdown
 #    content:
