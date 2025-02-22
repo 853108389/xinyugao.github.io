@@ -88,7 +88,7 @@ sections:
     content:
       title: 'Award and Honors'
       subtitle: ''
-      text: 
+      text: |-
         - ACM SIGSOFT Distinguished Paper Award (ESEC/FSE'23)
         - National Scholarship for Postgraduate Students (2021)
         - China Scholarship Council (CSC) scholarships. (2023)
