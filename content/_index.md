@@ -71,7 +71,7 @@ sections:
       title: Recent Publications
       text: ""
       sort_by: sort_weight
-      sort_ascending: dsc
+      sort_ascending: false
       filters:
         folders:
           - publication
