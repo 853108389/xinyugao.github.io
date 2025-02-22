@@ -94,7 +94,7 @@ sections:
             line3="China Scholarship Council (CSC) scholarships. (2023)"
             line4="NR Scholarship Talents Scholarship by Nanjing University (2024)"
             line5="Talents Scholarship by Nanjing University (2023, 2022)"
-        %}}
+        %}} {{% /honors %}}
 
 #  - block: markdown
 #    content:
