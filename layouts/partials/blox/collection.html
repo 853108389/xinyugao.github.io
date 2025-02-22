@@ -63,7 +63,7 @@
   {{ $query = where $query "Date" "<" now }}
 {{ end }}
 
-{{ $query = where $query "Params.is_show" "==" (false | default true) }}
+{{ $query = where $query "Params.is_show | default true" "==" false }}
 
 {{ $count := len $query }}
 
