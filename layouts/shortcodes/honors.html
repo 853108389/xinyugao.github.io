@@ -1,12 +1,11 @@
 <!--<div class="list-disc pl-5 space-y-0" style="font-size: 1em;">-->
 <!--  {{ .Inner | markdownify }}-->
 <!--</div>-->
-{{ $lines := split .Inner "\n" }}
 <ul class="list-disc pl-5 space-y-1 text-base">
-  {{ range $lines }}
-    {{ $line := trim . " " }}
-    {{ if gt (len $line) 0 }}
-      <li>{{ $line}}</li>
-    {{ end }}
-  {{ end }}
+    {{ with .Get "line1" }}<li>{{ . | markdownify }}</li>{{ end }}
+    {{ with .Get "line2" }}<li>{{ . | markdownify }}</li>{{ end }}
+    {{ with .Get "line3" }}<li>{{ . | markdownify }}</li>{{ end }}
+    {{ with .Get "line4" }}<li>{{ . | markdownify }}</li>{{ end }}
+    {{ with .Get "line5" }}<li>{{ . | markdownify }}</li>{{ end }}
 </ul>
+
