@@ -87,7 +87,7 @@ sections:
   
 
   - content:
-      text:|
+     text: |
         {{% honors %}}
             111
             ACM SIGSOFT Distinguished Paper Award (ESEC/FSE'23)
