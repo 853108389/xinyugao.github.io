@@ -13,7 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`) #
       username: Xinyu Gao
-      text: "I am currently a Ph.D. student in the Department of Software Engineering, Nanjing University, advised by Prof. Yang Feng, Zhenyu Chen and Prof. Baowen Xu. My research focuses on reliability assurance of the AI-enabled complex software systems within the field of Software Engineering (SE). Recently, my work has explored testing, analysis, and repair for multi-sensor fusion based perception systems in autonomous driving. My work has been published in top-tier SE venues (e.g., ICSE, FSE, ASE, ISSTA)  and has received a distinguished paper award (FSE '23)."
+      text: "I am currently a Ph.D. student in the Department of Software Engineering, Nanjing University, advised by Prof. Yang Feng, Prof. Zhenyu Chen and Prof. Baowen Xu. My research focuses on reliability assurance of the AI-enabled complex software systems within the field of Software Engineering (SE). Recently, my work has explored testing, analysis, and repair for multi-sensor fusion based perception systems in autonomous driving. My work has been published in top-tier SE venues (e.g., ICSE, FSE, ASE, ISSTA)  and has received a distinguished paper award (FSE '23)."
       # Show a call-to-action button under your biography? (optional)
 #      button:
 #        text: Download CV
@@ -102,9 +102,11 @@ sections:
     content:
       title: 'Academia'
       text: |
-        {{% education university="Nanjing University" duration="2024 - present" degree="Ph.D. Software Engineering" supervisor="Supervised by Prof. Lei Ma" %}}
-        {{% education university="Nanjing University" duration="2021 - 2023" degree="MEng Software Engineering" supervisor="Supervised by Prof. Lei Ma" %}}
-        {{% education university="Nanjing University of Posts and Telecommunications" duration="2017 - 2021" %}}
+        {{% education university="Nanjing University" duration="2021.09 - present" degree="Ph.D. Software Engineering" supervisor="Supervised by Prof. Yang Feng, Prof. Zhenyu Chen and Prof. Baowen Xu." %}}
+        {{% education university="Nanjing University" duration="2024.07 - present" degree="Visiting, Computer Science" supervisor="Supervised by Prof. Lei Ma" %}}
+        {{% education university="The University of Tokyo" duration="2023.10 - 2024.03" degree="Visiting, Electrical and Computer Engineering" supervisor="Supervised by Prof. Lei Ma" %}}
+        {{% education university="University of Alberta" duration="2019.09 - 2021.06" degree="MEng Software Engineering" supervisor="Supervised by Prof. Yang Feng, Prof. Zhenyu Chen" %}}
+        {{% education university="Nanjing University of Posts and Telecommunications" duration="2015.09 - 2019.06" %}}
 
 
 
