@@ -84,7 +84,19 @@ sections:
     design:
       view: citation   # 这个是影响不同collection渲染逻辑的页面
       columns: 1
-    
+  
+
+  - content:
+      text:|
+        {{% honors %}}
+            111
+            ACM SIGSOFT Distinguished Paper Award (ESEC/FSE'23)
+            National Scholarship for Postgraduate Students (2021)
+            China Scholarship Council (CSC) scholarships. (2023)
+            NR Scholarship Talents Scholarship by Nanjing University (2024)
+            Talents Scholarship by Nanjing University (2023, 2022)
+        {{% /honors %}}      
+
   - block: markdown
     content:
       title: 'Award and Honors'
