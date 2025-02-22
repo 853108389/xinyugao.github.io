@@ -70,6 +70,8 @@ sections:
     content:
       title: Recent Publications
       text: ""
+      sort_by: sort_weight
+      sort_ascending: dsc
       filters:
         folders:
           - publication

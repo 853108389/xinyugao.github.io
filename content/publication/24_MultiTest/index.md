@@ -23,6 +23,7 @@ publishDate: '2024-06-24T15:20:25+02:00'
 
 level: CCF-A
 
+sort_weight: 10
 #award: 'ACM SIGSOFT Distinguished Paper Award'
 
 # Publication type.

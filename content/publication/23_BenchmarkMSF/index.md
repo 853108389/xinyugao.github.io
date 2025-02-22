@@ -44,6 +44,8 @@ tags:
 # Display this page in the Featured widget?
 featured: true
 
+sort_weight: 9
+
 # Custom links
 url_pdf: ''  # PDF
 url_code: 'https://github.com/MSFTest/AI-MSF-Benchmark'

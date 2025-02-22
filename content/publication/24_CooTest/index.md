@@ -43,6 +43,8 @@ tags:
 # Display this page in the Featured widget?
 featured: false
 
+sort_weight: 0
+
 # Custom links
 url_pdf: ''  # PDF
 url_website: 'https://doi.org/10.1145/3650212.3680373'
