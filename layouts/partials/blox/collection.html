@@ -109,7 +109,8 @@
 </div>
 {{ end }}
 
-<div class="flex flex-col items-center px-6">
+<!--<div class="flex flex-col items-center px-6">-->
+<div clas="container px-8 mx-auto xl:px-5 py-5 lg:py-8 max-w-screen-lg"></div>
   {{ $config := dict "columns" ($block.design.columns | default 2) "len" (len $query) "fill_image" ($block.design.fill_image | default true) }}
   {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" . "view" $view "config" $config) }}
 
