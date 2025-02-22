@@ -1,4 +1,7 @@
 {{/* Left alignment / width is set so that multiple blocks with this view & variable length content all left align. */}}
 <!--<div class="mt-16 sm:mt-20 container max-w-3xl w-full">-->
+{{ $columns := .config.columns | default 1 }}
+{{ $len := .config.len | default 1 }}
+{{/* NOTE: dynamic `md:grid-cols-{{$columns}}` class requires Tailwind exception */}}
 <div class="container px-8 mx-auto xl:px-5 py-5 lg:py-8 {{ if eq $len 1 }}max-w-[500px] justify-center{{else}}max-w-screen-lg {{end}}">
   <div class="flex flex-col space-y-3">
