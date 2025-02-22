@@ -89,7 +89,7 @@ sections:
     content:
       title: 'Award and Honors'
       subtitle: ''
-      text: |-
+      text: |
             {{ partial "custom-block.html" . }}
             <ul class="list-disc pl-5 space-y-4 font-size: 1em;">
                 <li style="color: #333333;">ACM SIGSOFT Distinguished Paper Award. (ESEC/FSE'23)</li>
