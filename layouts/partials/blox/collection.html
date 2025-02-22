@@ -64,7 +64,7 @@
 {{ end }}
 
 
-{{ $query = where $query "Params.hidden" "==" true }}
+{{ $query = where $query "Params.hidden" "!=" true }}
 
 
 {{ $count := len $query }}
