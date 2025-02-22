@@ -62,6 +62,7 @@ sections:
         folders:
           - publication
         featured_only: true
+      count: 2
     design:
       view: article-grid
       columns: 2
@@ -73,8 +74,10 @@ sections:
         folders:
           - publication
         exclude_featured: false
+      count: 1000
     design:
       view: citation   # 这个是影响不同collection渲染逻辑的页面
+
       
 #  - block: collection
 #    content:
